@@ -1,21 +1,21 @@
 {
   "private": true,
-  "name": "edge-proxy",
+  "name": "ithaa-edge-public-proxy",
   "version": "1.0.0",
-  "description": "A template for kick starting a Cloudflare Workers project",
+  "description": "Ithaa Edge Public Proxy",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "format": "prettier --write '**/*.{js,css,json,md}'"
   },
+  "type": "module",
   "author": "Kristian Freeman <kristian@kristianfreeman.com>",
   "license": "MIT",
   "devDependencies": {
+    "@urql/core": "^5.1.1",
     "prettier": "^1.18.2"
   },
   "dependencies": {
-    "graphql": "^15.0.0",
-    "graphql-request": "^1.8.2",
-    "graphql-tag": "^2.10.3"
+    "graphql-request": "^1.8.2"
   }
 }
